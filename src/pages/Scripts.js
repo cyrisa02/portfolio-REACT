@@ -1,11 +1,43 @@
 import React from "react";
 
-const Presentation = () => {
+export const Script1 = () => {
   return (
-    <div>
-      Présentation
-    </div>
-  );
-};
+    <main>
+      <div className="script">
+        Script 1
+      </div>
+    </main>
+  )
+}
 
-export default Presentation;
+
+export const Script2 = () => {
+  return (
+    <main>
+      <div className="script">
+        Script 2
+      </div>
+    </main>
+  )
+}
+
+export const Script3 = () => {
+  return (
+    <main>
+      <div className="script">
+        Script 3
+      </div>
+    </main>
+  )
+}
+
+
+export const Script4 = () => {
+  return (
+    <main>
+      <div className="script">
+        Script 4
+      </div>
+    </main>
+  )
+}
