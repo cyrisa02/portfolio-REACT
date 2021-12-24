@@ -5,14 +5,14 @@
   font-size: 1.4rem;
   line-height: 28px;
   color: $color-4;
-
+/*cercle bleu en haut à gauche $color-3*/
   &:before {
     content: '';
     position: absolute;
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background: $color-3;
+    background: red;
     top: -150px;
     left: -160px;
     z-index: -1;
@@ -31,6 +31,11 @@
       width: 50px;
     }
   }
+
+  /*fin de script rond rouge"*/
+
+  /* rend active sur le menu sur lequel on est*/
+
   .nav-active {
     color: $black;
   }
