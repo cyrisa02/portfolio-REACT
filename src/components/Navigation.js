@@ -6,7 +6,7 @@ const Navigation = () => {
     <div className="navigation">
       <ul>
         <NavLink to="/" exact className="hover" activeClassName="nav-active">
-          <li>Accueil</li>
+          <li>Accueil Navig ok</li>
         </NavLink>
         <NavLink
           to="/presentation"
