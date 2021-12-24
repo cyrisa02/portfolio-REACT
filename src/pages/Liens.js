@@ -1,9 +1,10 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const Liens = () => {
   return (
     <div>
-      Liens
+     <Navigation/>
     </div>
   );
 };
