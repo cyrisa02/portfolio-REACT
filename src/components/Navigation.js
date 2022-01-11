@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul>
-        <NavLink to="/" exact className="hover" activeClassName="nav-active">
+        <NavLink to="/index.html" exact className="hover" activeClassName="nav-active">
           <li>Accueil</li>
         </NavLink>
         <NavLink

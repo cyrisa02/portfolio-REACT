@@ -12,7 +12,7 @@ import Cybersecurite from "./pages/Cybersecurite";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/index.html" element={<Home/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/cybersecurite" element={<Cybersecurite/>}/>
       <Route path="/presentation" element={<Presentation/>}/>
